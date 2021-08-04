@@ -42,4 +42,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploying surge
-        run: surge ./build http://quiz-typescript-pwa.surge.sh/ --token ${{secrets.SURGE_TOKEN_QUIZAPP}}
+        run: surge ./build http://quiz-typeapp-pwa.surge.sh/ --token ${{secrets.SURGE_TOKEN_QUIZAPP}}
