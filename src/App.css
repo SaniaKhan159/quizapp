@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.App h1{
+    text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.question-container{
+    max-width: 500px;
+    box-shadow: 0px 5px 24px #867a7a;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.question-form .submit-btn{
+    display: block;
+    width: 150px;
+    float: right;
+    background-color: #162eb5;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 13px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.question-form .radio-btn{
+    margin: 9px 0;
+    display: block;
 }
-
-.App-link {
-  color: #61dafb;
+.result-container{
+    max-width: 500px;
+    box-shadow: 0px 5px 24px #867a7a;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result-container .reset-btn{
+    text-align: center;
+    width: 150px;
+    background-color: #16b52b;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 13px 0;
 }
